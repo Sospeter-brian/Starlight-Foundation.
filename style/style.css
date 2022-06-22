@@ -52,6 +52,12 @@ h2{
 .navbar__item{
     height: 80;
 }
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAm4JtbHGyoqrP3TdFj4Laq-dCPaviOJtt5A&usqp=CAU);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
 
 .navbar__links{
     color: red;
@@ -133,4 +139,29 @@ h2{
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+}
+h3{
+    margin-left: 10%;
+    margin-top: 20%;
+    color: aqua;
+    font-size: 50px;
+    font-style: italic;
+
+}
+h4 {
+    margin-right: 8%;
+    color: aqua;
+    font-size: 50px;
+    font-style: italic;
+}
+h5 {
+    font-style: italic;
+    margin-right: 8%;
+    color: aqua;
+    font-size: 50px;
 }
