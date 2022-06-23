@@ -1,3 +1,4 @@
+
 h1 {
     color:white;
     font-size: 30px;
@@ -164,4 +165,8 @@ h5 {
     margin-right: 8%;
     color: aqua;
     font-size: 50px;
+}
+#About{
+    color: aqua;
+    
 }
